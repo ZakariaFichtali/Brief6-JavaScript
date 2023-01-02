@@ -1,5 +1,31 @@
-document.getElementById("id1--1").style.color = "#fff";
-document.getElementById("id1--1").style.backgroundColor= "cadetblue";
-document.getElementById("id1--1").style.fontSize="29px";
-document.getElementById("h1").style.backgroundColor="cadetblue";
-document.getElementById("h1").style.height="100px";
+
+
+
+ function from1To10(){
+
+ for (let index = 1; index <= 10; index++) {
+   console.log(index);
+ }
+
+ }
+    from1To10();
+
+
+
+    function myName(){
+      const myname = "ZAKARIA FICHTALI";
+      document.write(myname);
+    }
+    myName()
+
+    function br(){
+      // const brr = document.createElement("br");
+      document.write("<br>");
+    }
+    br()
+
+    function yourName(){
+      const yourName = "ZOUBIR FICHTALI";
+      document.write(yourName);
+    }
+    yourName()
