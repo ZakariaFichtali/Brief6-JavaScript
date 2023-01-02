@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+input{
+    padding: 6px 50px;
+    border: none;
+    border: 2px solid cadetblue;
+    margin-bottom: 12px;
+    margin-left: 50px;
+}
+label{
+    
+}
+
+form{
+    height: 200px;
+    width: 100%;
+    background-color: darkcyan;
+}
+#register{
+    padding: 7px 10px;
+    border: none;
+    background-color: darkcyan;
+    border-radius: 5px;
+}
