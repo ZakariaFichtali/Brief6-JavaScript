@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div> 
+            <input id="input" type="text" value="">
+            <button id="btn" onclick="condition()" type="submit"> Click me !</button>
+            <h1 id="result"></h1>
+
+    </div>
+
+
+
+
+    <script>
+                document.getElementById("btn").style.backgroundColor = "#899";
+                document.getElementById("btn").style.color = "#000";
+
+        function condition() {
+            var age = document.getElementById("input");
+
+
+
+            if (age.value == '') {
+                document.getElementById("result").innerHTML = "Please Fill the field";
+            }
+
+            else {
+                if ( age.value <= 35) {
+                    document.getElementById("result").innerHTML = "You are allowed";
+                } 
+                else {
+                    document.getElementById("result").innerHTML = "You are not allowed";
+                }
+            }
+
+
+        }
+
+    </script>
+</body>
+</html>
